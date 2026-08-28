@@ -1,0 +1,29 @@
+
+=== n=8, m=4 ===
+Depth=1
+Depth=2
+Depth=4
+Depth=6
+Depth=8
+Depth=10
+Depth=12
+
+=== n=12, m=8 ===
+Depth=1
+Depth=2
+Depth=4
+Depth=6
+Depth=8
+Depth=10
+Depth=12
+
+=== n=16, m=12 ===
+Depth=1
+Depth=2
+Depth=4
+Depth=6
+Depth=8
+Depth=10
+Depth=12
+Saved: results_depth_scaling/depth_scaling.csv
+Depth scaling experiment complete.

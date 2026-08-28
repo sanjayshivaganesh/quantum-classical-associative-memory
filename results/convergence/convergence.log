@@ -1,0 +1,145 @@
+
+======================================================================
+CONVERGENCE STUDY | n_bits=8 | m=4
+======================================================================
+
+Running seed 0
+step=  0 | loss=2.248121
+step= 25 | loss=0.849030
+step= 50 | loss=0.814218
+step= 75 | loss=0.812579
+step=100 | loss=0.812506
+step=125 | loss=0.812501
+step=150 | loss=0.812500
+step=175 | loss=0.812500
+step=200 | loss=0.812500
+step=225 | loss=0.812500
+step=250 | loss=0.812500
+step=275 | loss=0.812500
+
+Running seed 1
+step=  0 | loss=1.748760
+step= 25 | loss=0.797453
+step= 50 | loss=0.751675
+step= 75 | loss=0.750160
+step=100 | loss=0.750037
+step=125 | loss=0.750018
+step=150 | loss=0.750012
+step=175 | loss=0.750009
+step=200 | loss=0.750006
+step=225 | loss=0.750005
+step=250 | loss=0.750004
+step=275 | loss=0.750003
+
+Running seed 2
+step=  0 | loss=2.248042
+step= 25 | loss=0.914256
+step= 50 | loss=0.843424
+step= 75 | loss=0.817480
+step=100 | loss=0.812806
+step=125 | loss=0.812512
+step=150 | loss=0.812500
+step=175 | loss=0.812500
+step=200 | loss=0.812500
+step=225 | loss=0.812500
+step=250 | loss=0.812500
+step=275 | loss=0.812500
+
+======================================================================
+CONVERGENCE STUDY | n_bits=12 | m=8
+======================================================================
+
+Running seed 0
+step=  0 | loss=1.998028
+step= 25 | loss=0.945845
+step= 50 | loss=0.911564
+step= 75 | loss=0.902173
+step=100 | loss=0.899032
+step=125 | loss=0.897198
+step=150 | loss=0.896179
+step=175 | loss=0.895910
+step=200 | loss=0.895844
+step=225 | loss=0.895834
+step=250 | loss=0.895833
+step=275 | loss=0.895833
+
+Running seed 1
+step=  0 | loss=1.914189
+step= 25 | loss=0.957507
+step= 50 | loss=0.920387
+step= 75 | loss=0.906899
+step=100 | loss=0.906279
+step=125 | loss=0.906251
+step=150 | loss=0.906250
+step=175 | loss=0.906250
+step=200 | loss=0.906250
+step=225 | loss=0.906250
+step=250 | loss=0.906250
+step=275 | loss=0.906250
+
+Running seed 2
+step=  0 | loss=1.830919
+step= 25 | loss=0.977582
+step= 50 | loss=0.953759
+step= 75 | loss=0.941609
+step=100 | loss=0.930900
+step=125 | loss=0.927735
+step=150 | loss=0.927101
+step=175 | loss=0.927085
+step=200 | loss=0.927083
+step=225 | loss=0.927083
+step=250 | loss=0.927083
+step=275 | loss=0.927083
+
+======================================================================
+CONVERGENCE STUDY | n_bits=16 | m=12
+======================================================================
+
+Running seed 0
+step=  0 | loss=2.017626
+step= 25 | loss=0.986614
+step= 50 | loss=0.968045
+step= 75 | loss=0.957055
+step=100 | loss=0.947700
+step=125 | loss=0.935901
+step=150 | loss=0.918737
+step=175 | loss=0.913997
+step=200 | loss=0.912069
+step=225 | loss=0.911745
+step=250 | loss=0.911647
+step=275 | loss=0.911573
+
+Running seed 1
+step=  0 | loss=2.122468
+step= 25 | loss=0.978599
+step= 50 | loss=0.967232
+step= 75 | loss=0.954765
+step=100 | loss=0.944396
+step=125 | loss=0.935512
+step=150 | loss=0.929562
+step=175 | loss=0.924859
+step=200 | loss=0.923728
+step=225 | loss=0.923614
+step=250 | loss=0.923612
+step=275 | loss=0.923611
+
+Running seed 2
+step=  0 | loss=1.913525
+step= 25 | loss=0.973846
+step= 50 | loss=0.956453
+step= 75 | loss=0.946263
+step=100 | loss=0.939409
+step=125 | loss=0.932270
+step=150 | loss=0.931028
+step=175 | loss=0.930731
+step=200 | loss=0.930614
+step=225 | loss=0.930570
+step=250 | loss=0.930558
+step=275 | loss=0.930556
+
+====================================================
+Interpretation
+====================================================
+If post100_improvement_pct is consistently below
+roughly 5-10%, train_steps=100 is justified.
+If values are much larger, increase training budget.

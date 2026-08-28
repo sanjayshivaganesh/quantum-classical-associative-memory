@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hopfield-qam-research"
+version = "0.1.0"
+description = "Classical Hopfield vs hybrid quantum-classical associative memory experiments"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy==2.4.4",
+    "pandas==3.0.2",
+    "matplotlib==3.10.8",
+    "pennylane==0.44.1",
+    "pennylane-lightning==0.44.0",
+    "scipy==1.17.1",
+    "seaborn==0.13.2",
+    "tqdm==4.67.3",
+    "psutil==7.2.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["src", "src.*", "experiments", "experiments.*", "scripts", "scripts.*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = []
+addopts = "-q"

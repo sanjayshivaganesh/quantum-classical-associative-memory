@@ -1,0 +1,7 @@
+model,n_bits,critical_capacity_ratio
+Hopfield,8,0.375
+Hopfield,12,0.3333333333333333
+Hopfield,16,0.1875
+QAM,8,0.25
+QAM,12,0.16666666666666666
+QAM,16,0.125

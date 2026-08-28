@@ -1,0 +1,9 @@
+numpy==2.4.4
+pandas==3.0.2
+matplotlib==3.10.8
+pennylane==0.44.1
+pennylane-lightning==0.44.0
+scipy==1.17.1
+seaborn==0.13.2
+tqdm==4.67.3
+psutil==7.2.2

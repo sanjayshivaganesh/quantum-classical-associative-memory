@@ -1,0 +1,12 @@
+Storage Capacity Sweep Summary
+================================
+n_bits_list: [8, 12, 16]
+trials_per_m: 5
+train_steps: 100
+recall_noise: 0.15
+bootstrap_samples: 2000
+
+Notes:
+- Reduced runtime scaling used for n_bits >= 16 while preserving phase-transition behavior.
+- Statistical significance computed with Wilcoxon signed-rank tests.
+- Confidence intervals estimated via bootstrap resampling.
